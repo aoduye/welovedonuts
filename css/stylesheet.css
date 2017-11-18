@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Short+Stack');
+
+/* one font for entire project */
+#head {
+    font-family: 'Short Stack', cursive;
+    font-size: 80px;
+    text-align: center;
+    color: #f442a1;
+}
+body {
+background-color: #fcd085;    
+}
+.cover-page {
+    width: 40%;
+    position: relative;
+}
+
+.cover-text {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+
+/* images in flexbox */
+.cover-page img{
+    width: 100%;
+}
+
+
+#nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0px;
+  margin: 0px;
+  background-color:  #928779;
+}
+
+ul {
+  list-style-type: none;
+  font-family: 'EB Garamond', serif;
+  font-size: 30px;
+  /*background-color: #928779;*/
+  margin: 0;
+  
+  display: flex;
+  justify-content: space-between;
+  }
+ 
+ /* links to attached pages */
+nav a:link, nav a:visited {
+  text-decoration: none;
+  color:  #ffffff;
+  }
+  
+  .links li {
+    padding: 15px;
+}
+.container{
+  width:100%;
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: center; 
+  
+}
+.container img {
+  width:50%;
+  
+}
+.cover-text{
+  color: #fff31e;
+  font-size: 30px;
+}
+
+.text {
+  padding: 10px;
+  border: 2px solid #928779;
+  
+}
